@@ -1,9 +1,13 @@
+import AboutMe from "./component/About Me/AboutMe";
 import Header from "./component/Header/Header";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Header/>
+      <div>
+        <AboutMe/>
+      </div>
     </div>
   );
 }

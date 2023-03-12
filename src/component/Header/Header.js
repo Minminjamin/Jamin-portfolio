@@ -1,19 +1,13 @@
 import React from 'react';
 
 const Header = () => {
-    return (
-        <div className='flex flex-col mt-3 md:flex-row md:justify-around'>
-            <div>
-                <h1>SJM's portfolio</h1>
-            </div>
-
-            <nav className='flex flex-col md:flex-row'>
-                <p className='mb-2 md:mb-0 md:mr-4'>About me</p>
-                <p className='mb-2 md:mb-0 md:mr-4'>Skills</p>
-                <p className='mb-2 md:mb-0 md:mr-4'>Projects</p>
-                <p className='mb-2 md:mb-0'>Footer</p>
-            </nav>         
-        </div>
+    return (  
+        <nav className='flex items-center justify-evenly space-x-2 w-full h-16 border-b-4 '>
+            <h1 className='hover:text-blue-400 hover:border-b-2 border-blue-500'>{'<About me/>'}</h1>
+            <h1 className='hover:text-blue-400 hover:border-b-2 border-blue-500'>{'<Skills/>'}</h1>
+            <h1 className='hover:text-blue-400 hover:border-b-2 border-blue-500'>{'<projects/>'}</h1>
+            <h1 className='hover:text-blue-400 hover:border-b-2 border-blue-500'>{'<Footer/>'}</h1>
+        </nav>  
     );
 };
 
