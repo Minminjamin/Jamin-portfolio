@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div className='flex flex-col lg:flex-row h-1/2 mt-10 justify-center'>
+        <div className='flex flex-col lg:flex-row h-1/2 mt-10 justify-center bg-white'>
             <div className='lg:w-1/3 flex justify-center'>
                 <img src='/asset/img.jpg' alt='임시 이미지' className='border rounded-md'/> 
             </div>
@@ -15,8 +15,8 @@ const AboutMe = () => {
 
                 <div className='flex flex-col mt-6'>
                     <h2 className='text-3xl font-bold mb-2'>📢Link</h2>
-                    <span className='text-lg'>✉Email. 0429el@gmail.com</span>
-                    <span className='text-lg'>Github. <span className='hover:text-blue-400 hover:border-b-2 border-blue-500 text-lg'>https://github.com/Minminjamin</span></span>
+                    <span className='text-lg'>✉Email. <a href="mailto:0429el@gmail.com" className="text-black hover:text-blue-700">0429el@gmail.com</a></span>
+                    <span className='text-lg'>Github. <a href="https://github.com/Minminjamin" className="text-black hover:text-blue-700">https://github.com/Minminjamin</a></span>
                 </div>
             </div>
         </div>
