@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jamin-portfolio/static/css/main.71de446f.css",
+    "main.js": "/Jamin-portfolio/static/js/main.b2254d5d.js",
+    "static/js/787.9ef4d9e5.chunk.js": "/Jamin-portfolio/static/js/787.9ef4d9e5.chunk.js",
+    "index.html": "/Jamin-portfolio/index.html",
+    "main.71de446f.css.map": "/Jamin-portfolio/static/css/main.71de446f.css.map",
+    "main.b2254d5d.js.map": "/Jamin-portfolio/static/js/main.b2254d5d.js.map",
+    "787.9ef4d9e5.chunk.js.map": "/Jamin-portfolio/static/js/787.9ef4d9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71de446f.css",
+    "static/js/main.b2254d5d.js"
+  ]
+}
